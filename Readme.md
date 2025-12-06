@@ -3,7 +3,7 @@ k8s集群安装脚本
 
 1. k8s集群二进制安装方法，不使用kubeamin，官方对kubeadmin的解释是不适用于大规模集群，仅用于快速搭建测试集群(截止目前v1.10，不清楚未来是什么态度)。
 2. 各组建的安装需要下载二进制文件，更改download.sh中的版本号，下载当前最新的版本。
-
+3. This scrip will help deploy kubernetes using minikube
 # 使用方法
 
 1. 更改 `node_ip.sh` 脚本中的网卡名字，该脚本用于识别本机IP，你的集群使用内网或外网IP需要改为对应的网卡名称
